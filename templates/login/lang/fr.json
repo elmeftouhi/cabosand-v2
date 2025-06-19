@@ -1,0 +1,17 @@
+{
+	"content":{
+		"name"	: 	"PROJET",
+		"title"	:	"",
+		"description": "Acces au panneau de configuration",
+		"welcome":	"Bienvenue !",
+		"login":	"Utilisateur",
+		"password":	"Password",
+		"q1":	"Se souvenir de moi ?",
+		"q2":	"Je ne peux pas me connecter",
+		"q3":	"Se connecter",
+		"separator": "<i class='fa fa-angle-right'></i>",
+		"message_1":"Oops! Something went wrong",
+		"message_2":"Désolé! la page demandé n'existe pas, enlevée, changée de nom oubien temporairerement indisponible",
+		"message_3":"Aller à la page d'accueil"
+	}
+}

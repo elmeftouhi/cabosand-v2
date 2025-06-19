@@ -1,0 +1,320 @@
+/* CSS Document */
+
+
+
+/*******************  MY CALENDAR **********/
+
+#mycalendar{
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 6px 0px;
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	margin: 20px 0
+}
+#mycalendar .mycalendar-container .mycalendar-header{
+	display: flex;
+	justify-content: space-between;
+	background-color: #f4f5f9;
+	line-height: 35px
+}
+#mycalendar .mycalendar-container .mycalendar-header .title{
+	font-size: 14px;
+	padding: 0 10px
+}
+#mycalendar .mycalendar-container .mycalendar-header ul{
+	margin: 0; padding: 0
+}
+#mycalendar .mycalendar-container .mycalendar-header ul li{
+	list-style: none;
+	display: inline-block
+}
+#mycalendar .mycalendar-container .mycalendar-header ul li a{
+	display: block;
+	transition: all .3s;
+	text-decoration: none;
+	padding: 0 10px;
+	color: rgba(100,100,100,1.00);
+	border-bottom: 2px transparent solid;
+	font-size: 12px;
+}
+#mycalendar .mycalendar-container .mycalendar-header ul li a:hover{
+	background-color: red
+}
+#mycalendar .mycalendar-container .mycalendar-header ul li a.active{
+	border-bottom: 2px rgba(203,9,12,1.00) solid
+}
+#mycalendar .mycalendar-container .mycalendar-body{
+	padding: 0 10px;
+}
+#mycalendar .mycalendar-container .mycalendar-body .mycalendar-body-header{
+	display: flex;
+	justify-content: space-between;
+	line-height: 50px
+}
+
+#mycalendar .mycalendar-container .mycalendar-body .mycalendar-body-header ul{
+	margin: 0; padding: 0; display: flex
+}
+#mycalendar .mycalendar-container .mycalendar-body .mycalendar-body-header ul li{
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+#mycalendar .mycalendar-container .mycalendar-body .mycalendar-body-header ul li a{
+	padding: 7px 12px;
+	border: 1px solid rgba(216,215,215,1.00);
+	color: rgba(120,120,120,1.00);
+	text-decoration: none;
+	font-size: 12px
+}
+#mycalendar .mycalendar-container .mycalendar-body .mycalendar-body-header ul li a:hover{
+	background-color: rgba(213,213,213,.50);
+	color: black;
+}
+#mycalendar .mycalendar-container .mycalendar-body .mycalendar-body-header ul li a.pre{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+}
+#mycalendar .mycalendar-container .mycalendar-body .mycalendar-body-header ul li a.next{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	cursor: pointer;
+}
+
+/*******************  CALENDAR 2 **********/
+
+table.calendar{ border-left:1px solid red; width: 100%; margin-top: 15px}
+table.calendar tr td{ 
+	background-color: white;
+	vertical-align: top;
+	padding-top: 25px;
+}
+table.calendar tr td .label{ 
+	display: block;
+	text-align: left;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: normal;
+	cursor: pointer;
+	padding: 5px 6px;
+}
+tr.calendar-row	{  }
+td.calendar-day	{ 
+	min-height:80px; 
+	font-size:11px; 
+	position:relative; 
+} 
+
+* html div.calendar-day { 
+	height:180px; 
+	vertical-align: top
+}
+
+td.calendar-day-np	{ background:#ECEEF0 !important; } * html div.calendar-day-np { height:80px; }
+
+td.calendar-day-head { 
+	background:white; 
+	color: #5c7499;
+	font-size: 14px;
+	font-weight:bold;  
+	width:120px; 
+	padding:5px; 
+	border-bottom:1px solid #999; 
+	border-top:1px solid white; 
+	border-right:1px solid white; 
+	border-left:1px solid white; 
+	text-align: left
+}
+
+td.calendar-day-head{
+	position: relative;
+	border-left:1px solid #ccc;
+}
+
+td.calendar-day-head .days{
+	position: absolute;
+	top: 0;
+	left: -1px;
+	padding: 5px; 
+	background-color: white;
+	border:1px solid #ccc;
+}
+div.day-number		{ 
+	position: absolute;
+	padding:5px; 
+	color: #5c7499; 
+	font-weight:bold; 
+	float:right; 
+	margin:-5px -5px 0 0; 
+	width:20px; 
+	text-align:center; 
+	top: 10px ; right: 10px;
+}
+/* shared */
+td.calendar-day, td.calendar-day-np { width:120px; padding:5px; border-bottom:1px solid #e7eaf0; border-right:1px solid #e7eaf0; }
+
+
+
+/******************* CALENDAR *****************/
+
+._modal{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.28);
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	color: rgba(211,11,14,1.00);
+	padding-top: 50px;
+	font-size: 40px
+}
+
+#calendar{
+	position: relative;
+	background-color: white;
+	max-height: 650px;
+	overflow-y: scroll;
+}
+
+#calendar .calendar-container{
+	display: flex;
+}
+
+#calendar .calendar-container .calendar-header{
+	width:9rem; 
+	min-width:9rem;
+	border-right: 3px solid rgba(0,0,0,0.10);
+}
+
+#calendar .calendar-container .calendar-header ul{margin: 0; padding: 0}
+#calendar .calendar-container .calendar-header ul li{margin: 0; padding: 0; list-style: none}
+
+#calendar .calendar-container .calendar-header ul li.header{
+	background-color: rgba(220,219,219,0.60)!important;
+	display: block;
+	padding: 10px 5px;
+	height: 64px;
+	font-size: 13px;
+	color: rgb(102, 114, 128);
+	-webkit-box-shadow: -1px 2px 5px -2px rgba(145,145,145,1);
+	-moz-box-shadow: -1px 2px 5px -2px rgba(145,145,145,1);
+	box-shadow: -1px 2px 5px -2px rgba(145,145,145,1);
+	border-bottom: rgba(99,99,99,.20) 1px solid;
+}
+
+#calendar .calendar-container .calendar-header ul li .item{
+	padding: 3px 5px;
+	height: 30px;
+	display: flex
+}
+
+#calendar .calendar-container .calendar-header ul li .item:hover{
+	background-color: rgba(0,0,0,0.10);
+}
+
+#calendar .calendar-container .calendar-header ul li:nth-child(odd){
+	background-color: rgba(241,241,241,1)
+}
+#calendar .calendar-container .calendar-header ul li .item .img{
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	overflow: hidden;
+}
+#calendar .calendar-container .calendar-header ul li .item .img img{
+	width: 100%;
+	height: 100%;
+}
+
+#calendar .calendar-container .calendar-header ul li .item .text{
+	margin-left: 5px;
+	font-size: 12px;
+	padding-top: 5px
+}
+
+#calendar .calendar-container .calendar-header ul li .item .text p{
+	margin: 0;
+	font-size: 12px
+}
+
+/******************************* BODY 	******/
+
+#calendar .calendar-container .calendar-body{
+	flex: auto;
+	overflow: auto
+}
+
+#calendar .calendar-container .calendar-body .content .head{
+	height: 65px;
+	/*background-color: rgba(220,219,219,0.60)!important; */
+	background-color: rgba(220,0,0,1)!important;
+}
+
+#calendar .calendar-container .calendar-body .content table{
+	border-collapse: collapse;
+	width: 100%;
+	color: rgb(102, 114, 128);
+}
+
+#calendar .calendar-container .calendar-body .content table tr td{
+	text-align: center;
+	min-width: 15px;
+	font-size: 12px
+}
+
+#calendar .calendar-container .calendar-body .content table,
+#calendar .calendar-container .calendar-body .content table tr,
+#calendar .calendar-container .calendar-body .content table tr td{
+	border: rgba(99,99,99,.20) 1px solid;
+}
+#calendar .calendar-container .calendar-body .content table tr td:hover{
+	background-color: rgba(0,0,0,0.10);
+}
+
+#calendar .calendar-container .calendar-body .content table tr.time{
+	height: 20px;
+	background-color: rgba(220,219,219,0.80)!important;
+	border:none!important
+}
+
+#calendar .calendar-container .calendar-body .content table tr.days{
+	height: 20px;
+	background-color: rgba(220,219,219,0.80)!important;
+	-webkit-box-shadow: 2px 2px 5px -2px rgba(145,145,145,1);
+	-moz-box-shadow: 2px 2px 5px -2px rgba(145,145,145,1);
+	box-shadow: 2px 2px 5px -2px rgba(145,145,145,1);
+}
+
+#calendar .calendar-container .calendar-body .content table tr:nth-child(even){
+	background-color: rgba(241,241,241,1)
+}
+
+#calendar .calendar-container .calendar-body .content table tr.tasks{
+	border-bottom: 1px solid rgba(99,99,99,.10)!important;
+	height: 30px!important
+}
+
+#calendar .calendar-container .calendar-body .content table tr.tasks td{
+	text-align: center;
+	min-width: 15px;
+	border: none!important;
+	border-right: 1px solid rgba(99,99,99,.10)!important;
+	font-size: 8px!important;
+	color: rgba(148,146,146,1.00)
+}
+
+#calendar .calendar-container .calendar-body .content table tr.tasks td .task{
+	color: white;
+	border-radius: 3px;
+	background-color: darkblue;
+	margin: 0 7px
+}

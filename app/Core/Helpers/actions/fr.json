@@ -1,0 +1,296 @@
+{
+	"Log":{
+		"0"			:	{
+							"title"		:	"LogOut",
+							"message"	:	"vient de se Déconnecter"					
+						},
+		"1"			:	{
+							"title"		:	"LogIn",
+							"message"	:	"vient de se Connecter"					
+						}		
+	},
+	"Propriete":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un appartement"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un appartement"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté un nouvel appartement"
+						},
+		"2"			:	{	
+							"title"		:	"Renomer",
+							"message"	:	"a renomer un fichier de la Propriete"
+						},
+		"3"			:	{	
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un fichier de la Propriete"
+						}
+	},
+	"Propriete_Category":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer une catégorie d appartement"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié une catégorie d appartement"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté une catégorie d appartement"
+						}	
+	},
+	"Propriete_Type":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un type d appartement"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un type d appartement"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté un type d appartement"
+						}	
+	},
+	"Propriete_Status":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un statut d appartement"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un statut d appartement"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté un statut d appartement"
+						}	
+	},	
+	"Depense_Category":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer une catégorie dépense"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié une catégorie dépense"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté une catégorie dépense"
+						}	
+	},
+	"Notes":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer une note"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié une note"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté une note"
+						}
+	},
+	"Client":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un client"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un client"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté un nouveau client"
+						}	
+	},
+	"Complexe":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un complexe"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un complexe"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté un complexe"
+						}	
+	},
+	"Propriete_Proprietaire":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un contrat Proprietaire"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un contrat Proprietaire"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté un contrat Proprietaire"
+						}	
+	},
+	"Proprietaire":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un proprietaire"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un proprietaire"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté un nouveau proprietaire"
+						},
+		"3"			:	{	
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un fichier du Propriétaire"
+						}
+	},
+	"Person":{
+		"2"			:	{	
+							"title"		:	"Image",
+							"message"	:	"a modifié son image"
+						},
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un utilisateur"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un utilisateur"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté un nouveau utilisateur"
+						}
+	},
+	"Caisse":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer une Caisse"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié une Caisse"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté une nouvelle Caisse"
+						},
+		"2"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a alimenté une Caisse"
+						},
+		"3"			:	{	
+							"title"		:	"Modifier",
+							"message"	:	"a modifié l'alimentation d'une Caisse"
+						}	
+	},
+	"Caisse_Alimentation":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer une Alimentation"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié une Alimentation"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté une Alimentation"
+						}	
+	},
+	"Depense":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer une dépense"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié une dépense"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté une nouvelle dépense"
+						}	
+	},
+	"Entreprise":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer une Entreprise"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié une Entreprise"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté une nouvelle Entreprise"
+						}	
+	},
+	"Contrat":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un Contrat"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un Contrat"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté une nouvelle Contrat"
+						},
+		"2"			:	{	
+							"title"		:	"Renomer",
+							"message"	:	"a renomer un fichier du Contrat"
+						},
+		"3"			:	{	
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un fichier du Contrat"
+						}	
+	},
+	"Contrat_Periode":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer une Periode du contrat"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié une Periode du contrat"					
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté une nouvelle Période du Contrat"
+						}	
+	},
+	"Propriete_Location":{
+		"-1"		:	{
+							"title"		:	"Supprimer",
+							"message"	:	"a supprimer un Appartement dans un contrat"					
+						},
+		"0"			:	{
+							"title"		:	"Modifier",
+							"message"	:	"a modifié un Appartement dans un contrat"
+						},
+		"1"			:	{	
+							"title"		:	"Ajouter",
+							"message"	:	"a ajouté un Appartement à un contrat"
+						}	
+	}
+}

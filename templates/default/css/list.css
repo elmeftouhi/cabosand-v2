@@ -1,0 +1,58 @@
+
+
+/********************
+	LISTVIEW
+********************/
+
+.listview{
+	min-height: 250px;
+}
+
+.listview .modules{
+	margin: 0;
+	background-color: rgba(244,244,244,1.00);
+	border-right: rgba(225,225,225,1.00) 1px solid;
+	padding: 0;
+}
+
+.listview .modules ul li a.selected{
+	background-color: #D9D9D9
+}
+
+
+.listview .modules ul li a, .listview .styles ul li a{
+	display: block;
+	padding: 10px 7px;
+	color: rgba(26,26,26,1.00);
+	font-size: 12px;
+	text-decoration: none;
+	
+}.listview .modules ul li a i, .listview .styles ul li a i{
+	font-weight: bold;
+	color: rgba(22,138,28,1.00);
+	margin-right: 5px;
+	font-size: 14px
+}
+.listview .modules ul li a:hover, .listview .styles ul li a:hover{
+	background-color: #ededed
+}
+
+.listview .styles{
+	margin: 0;
+	background-color: rgba(244,254,254,1.00);
+	border-right: rgba(225,225,225,1.00) 1px solid;
+	padding: 0;
+}
+.listview .styles ul li a.selected{
+	background-color: #D9D9D9
+}
+
+.definitions input[type='text']{
+	border-radius: 0;
+	padding: 5px 7px;
+	font-size: 10px
+}
+
+.definitions .btn, .styles .btn, .modules .btn{
+	padding: 5px 7px
+}
