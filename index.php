@@ -88,7 +88,6 @@ if(!file_exists(CORE."Helpers".$D_S."Modal.php")){
 		$errors["DB_CONNECT"] = $modal->err;
 	}
 }
-var_dump($config);
 
 /*
 	*************
