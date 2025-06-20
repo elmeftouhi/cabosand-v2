@@ -1,3 +1,2 @@
 .htaccess
-index.php
 /app/Core/Helpers/Config.php
